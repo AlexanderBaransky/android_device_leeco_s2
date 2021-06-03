@@ -61,6 +61,9 @@
 /(mnt/vendor)/persist/vpp(/.*)?                                                           u:object_r:persist_vpp_file:s0
 /(mnt/vendor)/persist/secnvm(/.*)?                                                        u:object_r:persist_secnvm_file:s0
 
+# Firmware
+/firmware(/.*)?                   u:object_r:firmware_file:s0
+
 # Sensor
 /(vendor|system/vendor)/bin/hw/android\.hardware\.sensors@1\.0-service\.s2                u:object_r:hal_sensors_default_exec:s0
 
